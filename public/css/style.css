@@ -1,0 +1,173 @@
+
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: azure;
+    background-color: dimgray !important;
+    align-items: center;
+}
+img {
+    border-radius: 10px;
+}
+header{
+    padding: 60px;
+    background-image:url(../img/piano.jpg);
+    background-size: auto;
+    background-position: bottom;
+     
+}
+header div {
+    padding: 10px; /* Ajusta el espaciado superior e inferior del contenido del encabezado */
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-image: linear-gradient(black, rgb(34, 35, 34));
+    color: azure;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+nav {
+    background-color: rgb(74, 74, 74) !important;
+    margin-top: 0%;
+    position: sticky !important;
+    top: 0;
+    z-index: 1;
+    color: azure;
+}
+nav a:hover{
+    background-color: rgb(248, 248, 248);
+}
+
+.container-fluid {
+    height: 50%;
+    width: 50%;
+  }
+  
+  .carousel-inner img {
+    height: 500px;
+    width: 150px;
+    margin-top: 1%;
+  }
+
+aside {
+    width: 25%;
+    padding: 20px;
+    float: left;
+  }
+
+  aside img {
+    width: 100%;
+    height: 100%;
+    margin: 3%;
+  }
+
+  aside a:hover img{ 
+    border: 5px solid #1ED760; /* Cambia el color del borde al resaltar */
+    box-shadow: 0 0 10px rgba(30, 215, 96, 0.5); /* Agrega una sombra al resaltar */
+  }
+
+
+
+  article {
+    flex: 1; /* El artículo ocupará todo el espacio restante */
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+  }
+
+.card {
+    background-color: #3ec074 !important;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+  .card-img-bottom {
+    max-width: 50%;
+    height: 50%;
+    margin: 10px auto;
+  }
+  
+  .more-info-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #026424;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+  }
+
+  .more-info-button:hover {
+    background-color: #14753D; /* Cambia el color al pasar el cursor sobre el botón */
+  }
+
+
+section {
+    margin-bottom: 20px; /* Añade un margen inferior */
+}
+
+
+form {
+    padding: 40px;
+    background-color: #1ED760;
+    border: 5px outset rgb(7, 148, 0);
+    text-align: center;
+    width: 50%;
+    box-sizing: border-box;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 0 auto;
+  }
+  
+  label {
+    background-color: #025a21;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+  }
+  
+  fieldset {
+    font-size: 1.2rem;
+  }
+  
+  /* Añadido para separar los botones en líneas diferentes */
+  form button {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  legend {
+    font-size: 1.1rem;
+    font-weight: bolder;
+  }
+
+  @media (max-width: 600px) {
+    fieldset {
+        display: flex;
+        flex-direction: column;
+    }
+
+  }

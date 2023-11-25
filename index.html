@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="public/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="icon" href="public/img/musica.png" type="image/x-icon">
+  <title>Mi proyecto final</title>
+</head>
+<body>
+
+<header class="container">
+  <div>
+    <h1>La musica en el mundo</h1>
+    <h2>Novedades acerca de la musica actual</h2>
+  </div>
+</header>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="#">Noticias Musica</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Inicio <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="public/views/formulario.html" target="_blank">Registrarse</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF" target="_blank">Ranking</a>
+        </li>
+        <li class="nav-item"> 
+          <a class="nav-link" href="https://www.ticketle.com.ar/" target="_blank">Conciertos</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-12">
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="public/img/travss.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="public/img/yyee.jpg" class="d-block w-100" alt="..." >
+          </div>
+          <div class="carousel-item">
+            <img src="public/img/drakee.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container mt-4">
+  <div class="row">
+    <aside class="col-md-4">
+      <a href="https://www.spotify.com/ar/premium/" target="_blank">
+        <img src="public/img/spotify.jpg" alt="" class="img-fluid">
+      </a>
+      <a href="https://www.primevideo.com/offers/nonprimehomepage/ref=dvm_pds_amz_ar_dc_s_b_mkw_BwhMJNep-dc_pcrid_83356730338658?mrntrk=slid__pgrid_1333707633341955_pgeo_146399_x__ptid_kwd-83356740157934:loc-8" target="_blank">
+        <img src="public/img/prime-video.jpg" alt="" class="img-fluid">
+      </a>
+      <a href="https://www.netflix.com/signup" target="_blank">
+        <img src="public/img/netflixx.jpg" alt="" class="img-fluid">
+      </a>
+    </aside>
+
+    <article class="col-md-8">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Premios Billboard 2023</h5>
+          <p class="card-text">Ya se dieron a conocer las listas completas con todos los nominados a uno de los premios más prestigiosos de la escena musical</p>
+        </div>
+        <img src="public/img/th.jpeg" class="card-img-bottom img-fluid" alt="...">
+        <a href="https://www.billboard.com/espanol/musica/premios-billboard-2023-lista-completa-finalistas-1235455303/" target="_blank" class="more-info-button">Más Información</a>
+        <h5> Ganadores Premios Billboard de Música Latina 2023</h5>
+        <p>¡No te pierdas a todos los ganadores de los premios Billboard de la Música Latina 2023! Bad Bunny, Peso Pluma, Karol G, y más</p>
+        <iframe width="735" height="420" src="https://www.youtube.com/embed/WzjjpTIeKs0" title="Conoce a todos los ganadores de los premios Billboard de la Música Latina 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </article>
+  </div>
+</div>
+
+<!-- Scripts de Bootstrap (jQuery y Popper.js) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
